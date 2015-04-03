@@ -1,0 +1,126 @@
+
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+   text-align: center;
+}
+#container{
+	margin-top: 20px;
+}
+#heading{
+	background-color: #808080;
+}
+
+#logo {
+	margin-top:20px;
+	background-position: center ;
+   background-repeat:no-repeat;
+    height: 6.938rem;
+    
+}
+h1{
+	margin-top:2rem;
+}
+h1 ,h2{
+
+	color:	#D8F3C9;
+	font-size: 20px;
+	font-family: "Gentium Book Basic", Georgia, serif;
+}
+.green-text{
+	text-transform: uppercase;
+	color:#FFE4B5;
+	font-size:24px;
+	font-family:"Open Sans", "Helvetica Neue", sans-serif;; 
+
+}
+hr{
+	height:10px;
+	width:120px;
+	color:white;
+	border-radius:10px;
+	background-color: white;
+	margin:30px auto 5px auto;
+
+}
+#content{
+	height:20rem;
+}
+#addItems{
+	margin: 2rem auto 0 auto;
+	height:2rem;
+	width:20.55rem;
+	background-color: pink;
+	border-radius: 2rem;
+	text-align: center;
+	line-height: 2rem;
+	font-size: 1.5rem;
+	display:inline-block;
+
+}
+
+.delete  {
+    background:url('../images/deletemark.png') ;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: 5px;
+    margin-right:5px;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+   
+    
+}
+
+.right{
+	background:url('../images/check-mark.png') ;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 5px;
+    margin-left:5px;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+   
+}
+
+
+#item{
+	margin: 2rem auto 0 auto;
+	height:2rem;
+	width:20.55rem;
+	background-color: #FFDAB9;
+	border-radius: 2rem;
+	text-align: center;
+	line-height: 2rem;
+	font-size: 1.5rem;
+	display:inline-block;
+}
+#footer{
+	margin-top:2rem;
+	text-align: center;
+	background-color: #808080;
+	height:4rem;
+
+}
+h3{
+	text-align: center;
+	color:#FFEFD5;
+}
+#button{
+margin: 2rem auto 0 auto;
+	height:2rem;
+	width:10.55rem;
+	background-color: #9CC089;
+	border-radius: 1.33rem;
+	text-align: center;
+	line-height: 1rem;
+	font-size: 1.5rem;
+	display:inline-block;	
+	  cursor: pointer;
+	  padding-top: 0.55rem;
+}
