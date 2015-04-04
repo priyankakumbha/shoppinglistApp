@@ -124,4 +124,9 @@ margin: 2rem auto 0 auto;
 	  cursor: pointer;
 	  padding-top: 0.55rem;
 }
+.strikethrough{
+	
+	background-color: white;
+	text-decoration: line-through;
+}
 

@@ -2,24 +2,31 @@ $(document).ready(function(){
 $( "#addItems" ).keypress(function(e) {
   if (e.keyCode == 13) {
   var itemvalue = $("#addItems" ).val();
-  console.log( "Handler for .keypress() called." +itemvalue);
-  addItemToList(itemvalue);
-  $( "#addItems" ).val('');
-  }
   
+  addItemToList(itemvalue);
+  $("#addItems").val('');
+ $("#button").show();
+  }
 
 });
 
 
 
 $(document).on("click", ".delete", function(){
-     console.log( "Handler for .click() called.*****" );
+    
     $(this).closest('#item').fadeOut(300);
 });
 
 $(document).on("click", "#button", function(){
-     console.log( "Handler for .click() called.*****" );
-    $("#item-list").empty();
+     
+    $("#items").empty();
+    $("#button").hide();
+});
+$(document).on("click", ".right", function(){
+    
+       
+        $(this).closest('#item').addClass("strikethrough");
+
 });
 
 });
