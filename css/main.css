@@ -11,7 +11,7 @@ body {
 }
 #heading{
 	background-color: #808080;
-}
+		}
 
 #logo {
 	margin-top:20px;
@@ -46,7 +46,9 @@ hr{
 
 }
 #content{
-	height:20rem;
+	height:20rem; 
+   
+    
 }
 #addItems{
 	margin: 2rem auto 0 auto;
@@ -100,13 +102,13 @@ hr{
 	font-size: 1.5rem;
 	display:inline-block;
 }
-#footer{
-	margin-top:2rem;
+/*#footer{
+	margin-top:15rem;
 	text-align: center;
 	background-color: #808080;
 	height:4rem;
-
-}
+	
+}*/
 h3{
 	text-align: center;
 	color:#FFEFD5;

@@ -1,4 +1,8 @@
 $(document).ready(function(){
+   if ($("#item").is(':empty')){
+      console.log("list is empty");
+    $("#button").hide();
+}
 $( "#addItems" ).keypress(function(e) {
   if (e.keyCode == 13) {
   var itemvalue = $("#addItems" ).val();
@@ -15,6 +19,7 @@ $( "#addItems" ).keypress(function(e) {
 $(document).on("click", ".delete", function(){
     
     $(this).closest('#item').fadeOut(300);
+
 });
 
 $(document).on("click", "#button", function(){
